@@ -1,0 +1,12 @@
+module: "Event-driven-camera"
+version: 0.0.1
+description: "这是关于事件相机的配置信息"
+
+### 数据集的配置
+dataset:
+  - name: train
+    path_root: ./resource/dataset/train
+  - name: test
+    path_root: ./resource/dataset/test
+  - name: val 
+    path_root: ./resource/dataset/val
